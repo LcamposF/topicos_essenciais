@@ -1,12 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário HTML</title>
 </head>
 <body>
-    <H1>Hello World</H1>
+    <form autocomplete="on" action="Pagina_2" method="get">
+        Nome: 
+<input type="text" name="name" id="nome" placeholder="Nome completo"> 
+<br>
+<br>
+    Sobrenome:
+    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" maxlength="10"> 
+    <br>
+    <br>
+    E-mail: 
+    <input type="email" name="email" id="email"> 
+    <br>
+    <br>
+    URL:
+    <input type="url" name="url" id="url">
+        <br>
+        <br>
+        Número:
+        <input type="number" name="number" id="number"> 
+        <br>
+        <br>
+        Data:
+        <input type="datetime-local" name="data" id="data">
+        <br><br>
+    Radio Buttton: <br>
+    <input type="radio" name="videogame"> Atari <br>
+    <input type="radio" name="videogame"> Super Nitendo <br>
+    <input type="radio" name="videogame"> Playstation <br>
+    <br><br>
+    CheckBox: <br>
+    <input type="checkbox" name="Atari"> Atari <br>
+    <input type="checkbox" name="Super Nitendo"> Super Nitendo <br>
+    <input type="checkbox" name="Playstation"> Playstation <br>
+    <br>
+        <input type="submit" value="Enviar">
+ 
+    </form>
 </body>
 </html>
